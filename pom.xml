@@ -17,6 +17,22 @@
 
   <description>Parent POM for all CDLFlex open source projects.</description>
 
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+
+  <developers>
+    <developer>
+      <name>The CDL-Flex developer team</name>
+      <organization>CDL-Flex</organization>
+      <organizationUrl>http://cdlflex.org</organizationUrl>
+      <email>cdlflex@gmail.com</email>
+    </developer>
+  </developers>
+
   <scm>
     <connection>scm:git:git://github.com:flex-oss/flex-oss-parent.git</connection>
     <developerConnection>scm:git:git@github.com:flex-oss/flex-oss-parent.git</developerConnection>
@@ -27,5 +43,19 @@
     <!-- Base Settings -->
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
+
+  <repositories>
+    <repository>
+      <id>sonatype-snapshots</id>
+      <name>Sonaype Snapsht Repository</name>
+      <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+      <releases>
+        <enabled>false</enabled>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+    </repository>
+  </repositories>
 
 </project>
