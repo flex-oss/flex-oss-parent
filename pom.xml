@@ -42,6 +42,18 @@
   <properties>
     <!-- Base Settings -->
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+    <!-- common dependency versions -->
+    <junit.version>4.11</junit.version>
+    <mockito.version>1.8.5</mockito.version>
+
+    <!-- plugin versions -->
+    <mvn.assembly.plugin.version>2.2.2</mvn.assembly.plugin.version>
+    <mvn.bundle.plugin.version>2.3.7</mvn.bundle.plugin.version>
+    <mvn.compiler.plugin.version>3.0</mvn.compiler.plugin.version>
+    <mvn.license.plugin.version>1.9.0</mvn.license.plugin.version>
+    <mvn.resources.plugin.version>2.5</mvn.resources.plugin.version>
+    <mvn.surefire.plugin.version>2.13</mvn.surefire.plugin.version>
   </properties>
 
   <repositories>
