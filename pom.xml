@@ -68,10 +68,53 @@
     <mvn.assembly.plugin.version>2.2.2</mvn.assembly.plugin.version>
     <mvn.bundle.plugin.version>2.3.7</mvn.bundle.plugin.version>
     <mvn.compiler.plugin.version>3.0</mvn.compiler.plugin.version>
+    <mvn.deploy.plugin.version>2.8.2</mvn.deploy.plugin.version>
     <mvn.license.plugin.version>1.9.0</mvn.license.plugin.version>
     <mvn.resources.plugin.version>2.5</mvn.resources.plugin.version>
     <mvn.surefire.plugin.version>2.13</mvn.surefire.plugin.version>
   </properties>
+
+  <build>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-assembly-plugin-plugin</artifactId>
+          <version>${mvn.assembly.plugin.version}</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.felix</groupId>
+          <artifactId>maven-bundle-plugin</artifactId>
+          <version>${mvn.bundle.plugin.version}</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <version>${mvn.compiler.plugin.version}</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-deploy-plugin</artifactId>
+          <version>${mvn.deploy.plugin.version}</version>
+        </plugin>
+        <plugin>
+          <groupId>com.mycila.maven-license-plugin</groupId>
+          <artifactId>maven-license-plugin</artifactId>
+          <version>${mvn.license.plugin.version}</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-resources-plugin</artifactId>
+          <version>${mvn.resources.plugin.version}</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-surefire-plugin</artifactId>
+          <version>${mvn.surefire.plugin.version}</version>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
 
   <repositories>
     <repository>
