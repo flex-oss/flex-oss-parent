@@ -27,7 +27,7 @@
 
   <groupId>org.cdlflex</groupId>
   <artifactId>flex-oss-parent</artifactId>
-  <version>2-SNAPSHOT</version>
+  <version>2</version>
   <packaging>pom</packaging>
 
   <name>flex-oss-parent</name>
